@@ -324,4 +324,7 @@ footer .footer p > img {
     margin-right: -20px;
     margin-bottom: -20px;
 }
+ul#mysidebar.affix {
+    position: relative;
+}
 ###
