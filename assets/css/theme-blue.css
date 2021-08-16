@@ -45,6 +45,7 @@ h3 {color: #38c8d9;
 }
 .nav a:hover, .nav li.active > a {
     color: #194570;
+    background-color: #77BEDB;
     
 }
 .nav ul li a {
@@ -94,11 +95,11 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    background-color: #eee;
-    border-color: #00417a;
+    background-color: #38c8d9;
+    border-color: #38c8d9;
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
-    color: #00417a;
+    color: #eee;
     position: relative;
     font-size: 18px;
 }
@@ -247,12 +248,14 @@ blockquote code {
 .fa-home:before {
     content: "";
     display: inline-block;
-    width: 180px;
-    height: 40px;
+    width: 130px;
+    height: 60px;
     background-image: url(../images/Main_Logo_on_Light_background_Main-logo-horisontal-on-light.png);
-    background-size: 180px 40px;
+    background-size: 150px 70px;
     position: relative;
-    bottom: 0px;
+    bottom: 5px;
+    left: -25px;
+    top: -22px;
 }
 span.projectTitle {
     font-family: PantonSemiBold;
@@ -314,5 +317,12 @@ details.description[open] summary::after {
   font-size: 12px;
   margin-right: 2px;
 
+}
+
+footer .footer p > img {
+    max-width: 160px;
+    height: auto;
+    margin-right: -20px;
+    margin-bottom: -20px;
 }
 ###
